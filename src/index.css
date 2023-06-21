@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-start items-center flex-col w-full;
+  }
+  .contain {
+    @apply flex w-[90%] max-w-[1100px];
+  }
+  .ctaBtn {
+    @apply bg-primary px-[30px] py-4 hover:bg-transparent border-2 border-solid border-primary hover:text-primary text-white leading-[19px] font-semibold text-base;
+  }
+}
