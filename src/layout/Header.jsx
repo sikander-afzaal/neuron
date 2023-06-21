@@ -3,9 +3,12 @@ import { useState } from "react";
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
   return (
-    <header className="wrapper sticky bg-header top-0">
+    <header className="wrapper sticky z-50 bg-header top-0">
       {headerToggle && (
-        <div className="bg-black bg-opacity-60 w-full h-full z-[90] fixed top-0 left-0 md:hidden block"></div>
+        <div
+          onClick={() => setHeaderToggle(false)}
+          className="bg-black bg-opacity-60 w-full h-full z-[90] fixed top-0 left-0 md:hidden block"
+        ></div>
       )}
       <div className="contain justify-between items-center gap-5 h-[80px] md:h-[110px]">
         <img
@@ -19,12 +22,17 @@ const Header = () => {
           } fixed top-0 md:static  flex justify-start md:justify-center items-center sm:items-start md:items-center gap-8 w-full h-full sm:max-w-[450px] bg-sectionBg overflow-y-auto px-[3rem] pt-[6rem] pb-[3rem] transition-all md:flex-row flex-col duration-700 z-[100] md:w-auto md:h-auto md:bg-transparent md:overflow-visible md:p-0`}
         >
           <a
+            onClick={() => setHeaderToggle(false)}
             href="#"
             className="text-primary underline-offset-4 text-base font-semibold underline"
           >
             Home
           </a>
-          <a href="#" className="text-slateGray text-base font-normal">
+          <a
+            onClick={() => setHeaderToggle(false)}
+            href="#deployment"
+            className="text-slateGray text-base font-normal"
+          >
             Deployment Options
           </a>
           <button className="ctaBtn md:hidden block">Get Started</button>

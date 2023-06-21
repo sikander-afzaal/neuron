@@ -1,9 +1,13 @@
+import About from "./About";
+import Deployment from "./Deployment";
 import Hero from "./Hero";
 
 const Home = () => {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
+      <Deployment />
+      <About />
     </>
   );
 };

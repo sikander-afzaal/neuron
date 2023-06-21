@@ -13,4 +13,10 @@
   .ctaBtn {
     @apply bg-primary px-[30px] py-4 hover:bg-transparent border-2 border-solid border-primary hover:text-primary text-white leading-[19px] font-semibold text-base;
   }
+  .title {
+    @apply text-[30px] sm:text-[42px] font-bold;
+  }
+  html {
+    @apply scroll-smooth scroll-pt-[80px] md:scroll-pt-[110px];
+  }
 }

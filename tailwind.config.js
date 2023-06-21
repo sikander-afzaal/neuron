@@ -16,6 +16,9 @@ export default {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         roboto: ["Roboto"],
       },
+      boxShadow: {
+        deploy: "2.3472px 12.3472px 24.6944px rgba(0, 0, 0, 0.05)",
+      },
     },
   },
   plugins: [],
