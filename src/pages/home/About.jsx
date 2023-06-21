@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="bg-primary py-14 lg:py-24 wrapper">
+    <section id="about" className="bg-primary py-14 lg:py-24 wrapper">
       <div className="flex w-[90%] max-w-[1300px] justify-start items-center flex-col gap-6 sm:gap-10">
         <h3 className="title text-white">About Us</h3>
         <div className="flex justify-start items-start w-full flex-col gap-3 sm:gap-6">

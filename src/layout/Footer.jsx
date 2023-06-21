@@ -16,7 +16,7 @@ const Footer = () => {
                 Home
               </a>
               <a
-                href="#"
+                href="#about"
                 className="text-white capitalize font-medium text-base"
               >
                 About us

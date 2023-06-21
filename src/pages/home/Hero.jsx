@@ -1,6 +1,9 @@
 const Hero = () => {
   return (
-    <section className="wrapper bg-lightGray pt-10 pb-[150px]  sm:pt-16 lg:py-[150px]">
+    <section
+      id="hero"
+      className="wrapper bg-lightGray pt-10 pb-[150px]  sm:pt-16 lg:py-[150px]"
+    >
       <div className="contain lg:flex-row flex-col justify-between items-center lg:items-start gap-10">
         <div className="flex justify-start items-start flex-col gap-5 sm:gap-10 w-full lg:max-w-[550px] xl:max-w-[630px]">
           <h2 className="text-primary font-bold text-[30px] sm:text-[45px] xl:text-[60px] leading-[1.17]">
