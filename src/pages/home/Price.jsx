@@ -11,7 +11,7 @@ const Price = () => {
         <div className="flex w-full py-8 sm:py-14 sm:flex-row flex-col lg:py-[100px] px-5 bg-[#E2EFFF] justify-center gap-6 sm:gap-8  items-start">
           <img
             src="/users.png"
-            className="w-[60px] sm:w-[80px] object-contain"
+            className="w-[60px] sm:w-[70px] object-contain"
             alt=""
           />
           <div className="flex justify-start items-start flex-col gap-6">
