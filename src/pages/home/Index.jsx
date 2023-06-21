@@ -6,7 +6,7 @@ import Price from "./Price";
 const Home = () => {
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Price />
       <Deployment />
       <About />

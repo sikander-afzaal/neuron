@@ -6,7 +6,7 @@ const Price = () => {
           <p className="text-primary font-roboto text-lg uppercase font-normal">
             For DIFFERENT INDUSTRIES{" "}
           </p>
-          <h3 className="title text-[#282828]">Demo / Pricing</h3>
+          <h3 className="title text-[#282828]">Pricing</h3>
         </div>
         <div className="flex w-full py-8 sm:py-14 sm:flex-row flex-col lg:py-[100px] px-5 bg-[#E2EFFF] justify-center gap-6 sm:gap-8  items-start">
           <img

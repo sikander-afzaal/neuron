@@ -18,6 +18,7 @@ export default {
       },
       boxShadow: {
         deploy: "2.3472px 12.3472px 24.6944px rgba(0, 0, 0, 0.05)",
+        heroImg: "5px 5px 15px rgba(74, 74, 74, 0.15)",
       },
     },
   },
