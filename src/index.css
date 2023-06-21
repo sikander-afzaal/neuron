@@ -19,4 +19,16 @@
   html {
     @apply scroll-smooth scroll-pt-[80px] md:scroll-pt-[110px];
   }
+  .solution .splide {
+    @apply pb-8 lg:pb-[50px];
+  }
+  .solution .splide__pagination {
+    @apply bottom-0 top-full;
+  }
+  .solution .splide__pagination__page {
+    @apply w-[10px] h-[10px] bg-white border border-solid border-primary opacity-100 scale-100;
+  }
+  .solution .splide__pagination__page.is-active {
+    @apply w-[14px] h-[14px] bg-white border-[1.5px] border-solid border-primary opacity-100 scale-100;
+  }
 }
