@@ -5,7 +5,7 @@ const Features = () => {
         <div className="flex justify-between lg:flex-row flex-col items-center lg:items-stretch gap-8 w-full">
           <div className=" max-w-[422px] relative lg:mb-0 mb-32">
             <img src="/feature.png" className="w-full object-contain" alt="" />
-            <div className="absolute bg-white px-5 py-7 min-w-[250px] max-w-[250px] shadow-heroImg bottom-0 left-1/2 xl:left-0 xl:-translate-x-[20%] xl:translate-y-[20%] -translate-x-1/2 translate-y-1/2 rounded-[10px] flex justify-start items-start  flex-col gap-3 text-left">
+            {/* <div className="absolute bg-white px-5 py-7 min-w-[250px] max-w-[250px] shadow-heroImg bottom-0 left-1/2 xl:left-0 xl:-translate-x-[20%] xl:translate-y-[20%] -translate-x-1/2 translate-y-1/2 rounded-[10px] flex justify-start items-start  flex-col gap-3 text-left">
               <img
                 src="/trophy.png"
                 className="w-[70px] object-contain"
@@ -17,7 +17,7 @@ const Features = () => {
               <p className="text-slateGray font-roboto text-xl leading-[1] font-normal">
                 Analysis
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="flex w-full lg:max-w-[550px] xl:max-w-[646px] justify-start  items-start flex-col gap-5">
             <h3 className="title text-primary leading-[1]">Features</h3>
