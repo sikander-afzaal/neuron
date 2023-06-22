@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex justify-between w-full gap-10 lg:gap-4 lg:flex-row flex-col items-start">
           <img src="/logo.png" className="object-contain w-[205px]" alt="" />
           <div className="flex justify-start items-start sm:flex-row flex-col gap-10 md:gap-20">
-            <div className="flex justify-start items-start flex-col gap-5">
+            {/* <div className="flex justify-start items-start flex-col gap-5">
               <h4 className="font-semibold font-roboto text-[#FAFAFA] capitalize text-2xl mb-1 ">
                 Quick Links
               </h4>
@@ -68,7 +68,7 @@ const Footer = () => {
               >
                 Promotional Offers
               </a>
-            </div>
+            </div> */}
             <div className="flex justify-start items-start flex-col gap-5">
               <h4 className="font-semibold font-roboto text-[#FAFAFA] capitalize text-2xl mb-1 ">
                 Contract
