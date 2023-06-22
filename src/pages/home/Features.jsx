@@ -2,7 +2,7 @@ const Features = () => {
   return (
     <section className="wrapper py-14 lg:py-24">
       <div className="contain   justify-start items-start flex-col gap-5 lg:gap-10">
-        <div className="flex justify-between lg:flex-row flex-col items-center lg:items-start gap-8 w-full">
+        <div className="flex justify-between lg:flex-row flex-col items-center lg:items-stretch gap-8 w-full">
           <div className=" max-w-[422px] relative lg:mb-0 mb-32">
             <img src="/feature.png" className="w-full object-contain" alt="" />
             <div className="absolute bg-white px-5 py-7 min-w-[250px] max-w-[250px] shadow-heroImg bottom-0 left-1/2 xl:left-0 xl:-translate-x-[20%] xl:translate-y-[20%] -translate-x-1/2 translate-y-1/2 rounded-[10px] flex justify-start items-start  flex-col gap-3 text-left">
@@ -19,7 +19,7 @@ const Features = () => {
               </p>
             </div>
           </div>
-          <div className="flex w-full lg:max-w-[550px] xl:max-w-[646px] justify-start items-start flex-col gap-5">
+          <div className="flex w-full lg:max-w-[550px] xl:max-w-[646px] justify-start  items-start flex-col gap-5">
             <h3 className="title text-primary leading-[1]">Features</h3>
             <FeatureBox
               img="/search.png"
@@ -29,6 +29,7 @@ const Features = () => {
             <FeatureBox
               img="/reciept.png"
               title="Adios Information. Hola Insights! "
+              height
               desc={
                 <>
                   Neuron helps your clients, advisors and researchers make
@@ -73,9 +74,13 @@ const Features = () => {
 
 export default Features;
 
-const FeatureBox = ({ img, title, desc }) => {
+const FeatureBox = ({ img, title, desc, height }) => {
   return (
-    <div className="sm:flex-row flex-col flex justify-start items-start gap-4 w-full bg-white shadow-heroImg rounded-[10px] px-5 sm:px-7 py-8 ">
+    <div
+      className={`sm:flex-row ${
+        height ? "h-full" : ""
+      } flex-col flex justify-start items-start gap-4 w-full bg-white shadow-heroImg rounded-[10px] px-5 sm:px-7 py-8 `}
+    >
       <img src={img} className="max-w-[31px] object-contain" alt="" />
       <div className="flex justify-start items-start flex-col gap-5">
         <h4 className="text-[#0d193b]  text-[22px] font-medium">{title}</h4>

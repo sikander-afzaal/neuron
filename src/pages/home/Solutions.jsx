@@ -3,8 +3,18 @@ import "@splidejs/react-splide/css";
 
 const Solutions = () => {
   return (
-    <section className="wrapper bg-sectionBg py-14 lg:pb-32 lg:pt-24">
-      <div className="contain justify-start items-center flex-col gap-8 lg:gap-10">
+    <section className="wrapper bg-sectionBg py-14  lg:py-32">
+      <div className="contain relative justify-start items-center flex-col gap-8 lg:gap-10">
+        <img
+          src="/quote-up.png"
+          className="absolute lg:block hidden bottom-[95%] left-0"
+          alt=""
+        />
+        <img
+          src="/quote-down.png"
+          className="absolute lg:block hidden top-[95%] right-0"
+          alt=""
+        />
         <div className="flex justify-start items-center flex-col text-center">
           <p className="text-primary font-roboto text-lg uppercase font-normal">
             For DIFFERENT INDUSTRIES{" "}
@@ -21,6 +31,8 @@ const Solutions = () => {
               gap: "20px",
               arrows: false,
               pagination: true,
+              pauseOnHover: false,
+              autoplay: true,
               breakpoints: {
                 1024: {
                   perPage: 2,
