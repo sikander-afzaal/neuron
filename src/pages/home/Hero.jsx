@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="wrapper bg-lightGray pt-10 pb-[150px]  sm:pt-16 lg:py-[150px]"
+      className="wrapper bg-lightGray pt-10 pb-[60px] lg:pb-[150px]  sm:pt-16 lg:py-[150px]"
     >
       <div className="contain lg:flex-row flex-col justify-between items-center lg:items-stretch gap-10">
         <div className="flex justify-start items-start flex-col gap-5 sm:gap-10 w-full lg:max-w-[550px] xl:max-w-[630px]">
@@ -28,7 +28,11 @@ const Hero = () => {
           <button className="ctaBtn">Book A Demo</button>
         </div>
         <div className=" max-w-[510px] relative ">
-          <img src="/hero.png" className="w-full h-full object-cover" alt="" />
+          <img
+            src="/hero.png"
+            className="w-full lg:h-full object-contain lg:object-cover"
+            alt=""
+          />
           {/* <div className="absolute bg-white px-5 py-8 shadow-heroImg bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 flex justify-start items-center w-max flex-col gap-5 text-center">
             <h6 className="text-slateGray font-normal text-lg sm:text-xl font-roboto">
               Build your dream product
