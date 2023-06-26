@@ -3,7 +3,7 @@ const Features = () => {
     <section className="wrapper py-14 lg:py-24">
       <div className="contain   justify-start items-start flex-col gap-5 lg:gap-10">
         <div className="flex justify-between lg:flex-row flex-col items-center lg:items-stretch gap-8 w-full">
-          <div className=" max-w-[422px] relative lg:mb-0 mb-32">
+          <div className=" max-w-[422px] relative lg:mb-0 mb-10">
             <img src="/feature.png" className="w-full object-contain" alt="" />
             {/* <div className="absolute bg-white px-5 py-7 min-w-[250px] max-w-[250px] shadow-heroImg bottom-0 left-1/2 xl:left-0 xl:-translate-x-[20%] xl:translate-y-[20%] -translate-x-1/2 translate-y-1/2 rounded-[10px] flex justify-start items-start  flex-col gap-3 text-left">
               <img

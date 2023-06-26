@@ -2,9 +2,9 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="wrapper bg-lightGray pt-10 pb-[60px] lg:pb-[150px]  sm:pt-16 lg:py-[150px]"
+      className="wrapper bg-lightGray pt-5 pb-[60px] lg:pb-[150px]  sm:pt-16 lg:py-[150px]"
     >
-      <div className="contain lg:flex-row flex-col justify-between items-center lg:items-stretch gap-10">
+      <div className="contain lg:flex-row flex-col-reverse justify-between items-center lg:items-stretch gap-6 sm:gap-10">
         <div className="flex justify-start items-start flex-col gap-5 sm:gap-10 w-full lg:max-w-[550px] xl:max-w-[630px]">
           <h2 className="text-primary font-bold text-[30px] sm:text-[45px] xl:text-[60px] leading-[1.17]">
             Unlocking Financial Potential through Tailored Intelligence
@@ -30,10 +30,10 @@ const Hero = () => {
             <button className="ctaBtnInverse">Try it Out</button>
           </div>
         </div>
-        <div className=" max-w-[510px] relative ">
+        <div className=" w-full lg:max-w-[510px] relative ">
           <img
             src="/hero.png"
-            className="w-full lg:h-full object-contain lg:object-cover"
+            className="w-full aspect-video lg:aspect-auto lg:h-full object-cover"
             alt=""
           />
           {/* <div className="absolute bg-white px-5 py-8 shadow-heroImg bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 flex justify-start items-center w-max flex-col gap-5 text-center">
