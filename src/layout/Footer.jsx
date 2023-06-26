@@ -89,7 +89,7 @@ const Footer = () => {
               </a> */}
               <a
                 href="mailto:hello@pints.app"
-                className="text-white capitalize font-medium flex justify-start items-center gap-3 text-base"
+                className="text-white  font-medium flex justify-start items-center gap-3 text-base"
               >
                 <img src="/mail.png" className="object-contain w-6" alt="" />
                 hello@pints.app
