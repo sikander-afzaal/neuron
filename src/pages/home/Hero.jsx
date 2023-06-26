@@ -25,7 +25,10 @@ const Hero = () => {
               business.{" "}
             </p>
           </div>
-          <button className="ctaBtn">Book A Demo</button>
+          <div className="flex justify-start items-center gap-3 sm:gap-5">
+            <button className="ctaBtn">Book A Demo</button>
+            <button className="ctaBtnInverse">Try it Out</button>
+          </div>
         </div>
         <div className=" max-w-[510px] relative ">
           <img
