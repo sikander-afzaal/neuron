@@ -80,19 +80,19 @@ const Footer = () => {
                 <img src="/pin.png" className="object-contain w-6" alt="" />
                 82 Telok Ayer
               </a>
-              <a
+              {/* <a
                 href="tel:+11 2 3456 7890"
                 className="text-white capitalize font-medium flex justify-start items-center gap-3 text-base"
               >
                 <img src="/phone.png" className="object-contain w-6" alt="" />
                 +11 2 3456 7890
-              </a>
+              </a> */}
               <a
-                href="mailto:pints"
+                href="mailto:hello@pints.app"
                 className="text-white capitalize font-medium flex justify-start items-center gap-3 text-base"
               >
                 <img src="/mail.png" className="object-contain w-6" alt="" />
-                Pints
+                hello@pints.app
               </a>
             </div>
           </div>
